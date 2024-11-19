@@ -29,21 +29,23 @@
     <main class="main">
         <header class="header">
 
-            <img src="/assets/img/my-photo.jpeg" alt="Profile" class="photo profile.photo">
+            <img id="profile.photo" src="/assets/img/my-photo.jpeg" alt="Profile" class="photo profile.photo">
 
             <h1 class="title">
-                <span class="profile.name">Loading...</span>
+                <span id = "profile.name" class="profile.name">Loading...</span>
             </h1>
 
             <div class="information">
-                <p class="profile.profession">Loading...</p>
-                <p class="profile.location">Loading...</p>
-                <p class="profile.phone">
+                <p id="profile.profession" class="profile.profession">Loading...</p>
+                <p id="profile.location" class="profile.location">Loading...</p>
+                <p id="profile.phone" class="profile.phone">
                     <a href="tel:+55(11) 9 9999-9999">Loading...</a>
                 </p>
-                <p class="profile.email">
+                <p id="profile.email" class="profile.email">
                     <a href="mailto:ex@mail.com">Loading...</a>
-
+                </p>
+                <p id="profile.github" class="profile.github">
+                    <a href="linktogithub">Loading...</a>
                 </p>
             </div>
         </header>
@@ -55,18 +57,18 @@
 
             <div class="content">
                 <div class="skills">
-                    <section class="tools">
-                        <h3>Ferramentas:</h3>
-                        <ul id="profile.skills.hardSkills">
+                    <section class="techSkills">
+                        <h3>Tech Skills:</h3>
+                        <ul id="profile.skills.techSkills">
                         </ul>
                     </section>
 
-                    <section class="personal">
-                        <h3>Pessoal:</h3>
+                    <section class="softSkills">
+                        <h3>Soft Skills:</h3>
                         <ul id="profile.skills.softSkills">
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
+                            <li>Loading...</li>
+                            <li>Loading...</li>
+                            <li>Loading...</li>
                         </ul>
                     </section>
                 </div>
@@ -75,19 +77,19 @@
 
         <section class="acordeon">
             <button class="trigger" type="button">
-                <h2>Idiomas</h2>
+                <h2>Languages</h2>
             </button>
 
             <div class="content">
                 <ul class="languages" id="profile.languages">
-                    <li>Carregando...</li>
+                    <li>Loading...</li>
                 </ul>
             </div>
         </section>
 
         <section class="acordeon">
             <button class="trigger" type="button">
-                <h2>Portfólio</h2>
+                <h2>Portfolio</h2>
             </button>
 
             <div class="content">
@@ -116,7 +118,9 @@
 
     <script src="/assets/js/acordeon.js"></script>
     <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/htmlCreator.js"></script>
     <script src="/assets/js/main.js"></script>
+
 
 </body>
 
