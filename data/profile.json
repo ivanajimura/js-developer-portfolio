@@ -1,13 +1,11 @@
 {
-  "nome": "Venilton FalvoJr",
-  "titulo": "Education Tech Lead na DIO",
-  "localidade": {
-    "cidade": "Araraquara",
-    "estado": "São Paulo",
-    "pais": "Brasil"
-  },
-  "telefone": "(16) 99721-8281",
-  "email": "venilton@dio.me",
+  "name": "Ivan Takaki Ajimura",
+  "photo": "https://avatars.githubusercontent.com/u/19676583?v=4",
+  "profession": "Software Engineer",
+  "location": "Göttingen, Deutschland",
+  "phone": "+55 11 99917 1965",
+  "email": "ivanajimura@gmail.com",
+  "github": "https://github.com/ivanajimura",
   "skills": {
     "hardSkills": [
       {
