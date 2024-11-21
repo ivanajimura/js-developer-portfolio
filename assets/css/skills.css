@@ -3,21 +3,26 @@
     flex-direction: column;
 }
 
-.skills .tools ul {
+.skills .techSkills ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+    margin: .5rem;
+    padding: .5rem;
     list-style: none;
 }
 
-.skills .tools ul li img {
-    max-width: 50px;
-    max-height: 50px;
-    margin: 0 .5rem;
+.skills .techSkills ul li {
+    margin: .5rem .5rem;
+}
+
+.skills .techSkills ul li img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: .2rem .2rem;
+    vertical-align: middle;
 }
 
 .skills .personal ul {

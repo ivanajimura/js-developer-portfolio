@@ -8,6 +8,7 @@ function updateProfileInfo(profileData){
     updateGithub(profileData.github)
     updateSoftSkills(profileData.skills.softSkills)
     updateTechSkills(profileData.skills.techSkills)
+    updateLanguages(profileData.languages)
 
 }
 
@@ -58,7 +59,22 @@ function updateSoftSkills(softSkills){
 }
 
 function updateTechSkills(techSkills){
-    console.log(techSkills)
     const techSkillsElement = document.getElementById("profile.skills.techSkills")
-    techSkillsElement.innerHTML = techSkills.map(skill => `<li>${skill[name]}</li>`).join('')
+    techSkillsElement.innerHTML = techSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"><span>${skill.name}</span></li>`).join('')
+}
+
+function updateLanguages(languages){
+    const languagesElement = document.getElementById("profile.languages")
+    languagesElement.innerHTML = languages.map(language => `<li>${language}</li>`).join('')
+}
+
+function updateEducation(education){
+    const educationElement = document.getElementById("profile.education")
+    educationElement.innerHTML = education.map(education => 
+        `<li>
+            <span>${education.course}</span>
+            <span>${education.institution}</span>
+        </li>
+        `
+    )
 }
