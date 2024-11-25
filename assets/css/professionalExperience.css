@@ -1,4 +1,4 @@
-.portfolio {
+.professionalExperience {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -8,7 +8,7 @@
     list-style: none;
 }
 
-.portfolio li {
+.professionalExperience li {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -16,4 +16,3 @@
     font-weight: 400;
     padding: .5rem;
 }
-

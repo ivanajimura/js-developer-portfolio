@@ -1,4 +1,4 @@
-.portfolio {
+.education {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -8,7 +8,7 @@
     list-style: none;
 }
 
-.portfolio li {
+.education li {
     display: flex;
     flex-direction: row;
     align-items: center;

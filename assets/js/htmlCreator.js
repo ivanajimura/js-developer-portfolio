@@ -10,6 +10,8 @@ function updateProfileInfo(profileData){
     updateTechSkills(profileData.skills.techSkills)
     updateLanguages(profileData.languages)
     updateEducation(profileData.education)
+    updatePortfolio(profileData.portfolio)
+    updateProfessionalExperience(profileData.professionalExperience)
 
 }
 
@@ -73,9 +75,29 @@ function updateEducation(education){
     const educationElement = document.getElementById("profile.education")
     educationElement.innerHTML = education.map(education => 
         `<li>
-            <span>${education.course}</span>
-            <span>${education.institution}</span>
+            <span>${education.course} at </span>
+            <span>${education.institute}</span>
         </li>
         `
-    )
+    ).join('')
+}
+
+function updatePortfolio(portfolio){
+    const portfolioElement = document.getElementById("profile.portfolio")
+    portfolioElement.innerHTML = portfolio.map(item =>
+        `<li>
+            <span><a href="${item.url}">${item.name}</a> using ${item.techStack} </span>
+        </li>
+        `
+    ).join('')
+}
+
+function updateProfessionalExperience(experience){
+    const profExperienceElement = document.getElementById("profile.professionalExperience")
+    profExperienceElement.innerHTML = experience.map(item =>
+        `<li>
+            <span>${item.name} at ${item.company}: ${item.period}</span>
+        </li>
+        `
+    ).join('')
 }
