@@ -9,6 +9,7 @@ function updateProfileInfo(profileData){
     updateSoftSkills(profileData.skills.softSkills)
     updateTechSkills(profileData.skills.techSkills)
     updateLanguages(profileData.languages)
+    updateEducation(profileData.education)
 
 }
 

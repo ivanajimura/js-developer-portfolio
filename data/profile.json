@@ -65,14 +65,45 @@
   ],
   "portfolio": [
     {
-      "name": "",
-      "url": "",
-      "techStack": "",
+      "name": "Automatic Jira Data Extractor and Analyser",
+      "url": "https://github.com/ivanajimura/Jira_analyser",
+      "techStack": "Jira, Python, Pandas, Makefile",
       "github": true
     },
     {
-      "name": "",
-      "url": "",
+      "name": "Google Calendar Automatic Event Color Coding",
+      "url": "https://github.com/ivanajimura/google_calendar_color_coding",
+      "techStack": "Javascript, Google Calendar API",
+      "github": true
+    },
+    {
+      "name": "Offline Watermark Generator",
+      "url": "https://github.com/ivanajimura/watermark_generator",
+      "techStack": "Python, FastAPI, Makefile, Docker",
+      "github": true
+    },
+    {
+      "name": "Offline Watermark Generator",
+      "url": "https://github.com/ivanajimura/catland_planilha",
+      "techStack": "Python, Makefile, HTML, PyTest, Pygsheets",
+      "github": true
+    },
+    {
+      "name": "Advanced Excel Online Course",
+      "url": "https://www.crehana.com/br/cursos-online-data/excel-para-especialistas-ferramentas-avancadas/",
+      "techStack": "Excel",
+      "github": false
+    },
+    {
+      "name": "Jira for Business Users Online Course",
+      "url": "https://www.crehana.com/br/cursos-online-soft-technology-tools/jira-do-zero-para-negocios/",
+      "techStack": "Jira, Scrum, Kanban, Google Sheets",
+      "github": true
+    },
+    {
+      "name": "Google Sheets from Scratch Online Course",
+      "url": "https://www.crehana.com/br/cursos-online-data/planilhas-google-do-zero-1/",
+      "techStack": "Google Sheets",
       "github": true
     }
   ],
